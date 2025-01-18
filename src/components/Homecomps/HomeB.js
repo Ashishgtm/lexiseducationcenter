@@ -61,6 +61,7 @@ const HomeB = () => {
              the complex process of studying abroad and provide students with personalized guidance to ensure 
              a smooth and successful journey.
 </p>
+
 <p>
             Founded by a team of education enthusiasts and industry experts, we understand that every
          student’s path is unique. That’s why we offer tailored counseling services, taking into 

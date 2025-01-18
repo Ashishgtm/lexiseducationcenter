@@ -10,6 +10,7 @@
     
   }
   
+
   .growth-content h2 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -70,24 +71,65 @@
     font-size: 14px;
     color: #cccccc;
   }
-  
-  /* Responsive Design */
   @media (max-width: 768px) {
-    .growth-stats {
+    .growth-div {
       flex-direction: column;
       align-items: center;
     }
   
     .growth-content h2 {
       font-size: 24px;
+      margin-left: 10%;
+      margin-top: 20px;
     }
   
     .growth-content p {
       font-size: 14px;
+      margin-left: 10%;
+      max-width: 90%;
+    }
+  
+    .growth-map img {
+      width: 90%;
+      max-width: none;
+    }
+  
+    .growth-stats {
+      flex-direction: column;
+      gap: 10px;
     }
   
     .stat {
-      width: 80%; /* Adjust stat box width for small screens */
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .stat h3 {
+      font-size: 20px;
+    }
+  
+    .stat p {
+      font-size: 12px;
     }
   }
   
+  @media (max-width: 480px) {
+    .growth-content h2 {
+      font-size: 20px;
+      margin-left: 5%;
+    }
+  
+    .growth-content p {
+      font-size: 12px;
+      margin-left: 5%;
+      max-width: 95%;
+    }
+  
+    .stat h3 {
+      font-size: 18px;
+    }
+  
+    .stat p {
+      font-size: 10px;
+    }
+  }

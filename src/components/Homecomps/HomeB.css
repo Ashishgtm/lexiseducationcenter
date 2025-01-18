@@ -145,6 +145,7 @@
   .container {
     flex-direction: column; /* Stack items vertically on medium screens */
     text-align: center;
+    padding-left: 5%;
   }
   
   .imageman img {
