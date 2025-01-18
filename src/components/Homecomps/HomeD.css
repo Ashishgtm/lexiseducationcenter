@@ -1,0 +1,63 @@
+.testimonials-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.abouttesti{
+  padding-top: 2%;
+  font-size: 30px;
+  font-family: "Orbitron", serif;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+.saying{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+
+.testimonial-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-content {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.role {
+  font-weight: bold;
+  color: #555;
+}
+
+.rating {
+  color: #ffb400;
+  margin-bottom: 10px;
+}
+
+.message {
+  font-style: italic;
+  color: #333;
+}

@@ -1,0 +1,139 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    position: fixed; /* Fixes the header at the top */
+    top: 0;
+    width: 98%;
+    z-index: 1000; 
+    background-color:rgb(221, 236, 250); 
+   }
+
+  .lexislogo{
+    margin-left: 35%;
+    height: 80px;
+  
+  }
+
+  
+  .logo {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .logo img {
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 30px;
+    color:blue; /* blue color */
+    font-weight: bold;
+  }
+  .nav-toggler {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    margin-right: 2%;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  .nav a {
+    margin-top: 7%;
+    text-decoration: none;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .nav a:hover,
+  .nav a.active {
+    color:blue;
+  }
+  
+  .nav a.active::after,
+  .nav a:hover::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 100%;
+    background-color: rgba(255, 166, 0, 0.87);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+  }
+  
+  .contact .contact-btn {
+    background-color:  #1e3a8a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .contact .contact-btn:hover {
+    background-color:  #1e40af;
+  }
+  @media (max-width: 768px) {
+    .nav-toggler {
+      display: block;
+      margin-left: auto;
+    }
+  
+    .nav {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      background-color: rgb(221, 236, 250);
+      position: absolute;
+      top: 100%;
+      left: 0;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .nav.open {
+      display: flex;
+    }
+  
+    .contact {
+      width: 80%;
+      display: none;
+    }
+    .lexislogo{
+      margin-left: 3%;
+      height: 80px;
+    
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav a {
+      font-size: 14px;
+    }
+    .lexislogo{
+      margin-left: 3%;
+      height: 80px;
+    
+    }
+    .contact .contact-btn {
+      padding: 8px 15px;
+    }
+  }
+  

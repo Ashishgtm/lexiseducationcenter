@@ -1,0 +1,144 @@
+.team-section {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .team-section h2 {
+    margin-top:6% ;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Orbitron", serif;
+    
+  }
+  .team-section  p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .team-card {
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .team-image {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 1rem;
+  }
+  
+  .team-card h3 {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .team-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: -4%;
+  }
+  
+  
+  
+  /* Additional Responsive Styling */
+
+/* For Medium-Sized Screens (Tablets and Small Laptops) */
+@media (max-width: 992px) {
+  .team-section h2 {
+    font-size: 24px;
+    margin-top: 22%; /* Adjust the font size for the section title */
+  }
+
+  .team-section p {
+    font-size: 16px; /* Adjust the font size for the paragraph */
+  }
+
+  .team-container {
+    gap: 1.5rem; /* Reduce the gap between team cards */
+    padding: 1rem;
+  }
+
+  .team-card {
+    height: 400px; /* Reduce card height for better fit */
+  }
+
+  .team-image {
+    height: 70%; /* Adjust image height */
+  }
+}
+
+/* For Small Screens (Phones in Landscape Mode) */
+@media (max-width: 576px) {
+  .team-section h2 {
+    font-size: 20px; /* Further reduce the font size for the section title */
+  }
+
+  .team-section p {
+    font-size: 14px; /* Reduce font size for the paragraph */
+  }
+
+  .team-container {
+    flex-direction: column; /* Stack team cards vertically */
+    align-items: center; /* Center-align the cards */
+    gap: 1rem;
+  }
+
+  .team-card {
+    width: 95%; /* Make cards nearly full-width */
+    height: auto; /* Allow the height to adjust dynamically */
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .team-image {
+    height: auto; /* Allow the image height to adapt */
+  }
+}
+
+/* For Extra Small Screens (Portrait Phones) */
+@media (max-width: 360px) {
+  .team-section h2 {
+    font-size: 18px; /* Minimize title size for very small devices */
+  }
+
+  .team-section p {
+    font-size: 12px; /* Minimize paragraph font size */
+  }
+
+  .team-card {
+    width: 100%; /* Full-width cards for extra small devices */
+    padding: 0.5rem; /* Reduce padding for compact display */
+    border-radius: 15px; /* Adjust border radius for smaller screens */
+  }
+
+  .team-image {
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 0.5rem; /* Reduce margin below the image */
+  }
+
+  .team-card h3 {
+    font-size: 1rem; /* Smaller font size for card titles */
+  }
+
+  .team-card p {
+    font-size: 0.875rem; /* Smaller font size for descriptions */
+  }
+}

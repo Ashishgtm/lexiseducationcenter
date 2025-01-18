@@ -1,0 +1,98 @@
+.university-heading{
+    padding-top:8% ;    
+    font-size: 30px;
+        font-family: "Orbitron", serif;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+      
+      }
+      .university-headtext{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 1%;
+      }
+
+
+
+
+.uni-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 16px;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    gap: 16px;
+    border-radius: 25px;
+    height: 20%;
+   
+
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    flex: 1 1 calc(33.33% - 32px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+
+  
+  .card-info {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1px 0;
+    
+  }
+  
+  .card-country {
+    font-size: 14px;
+    color: #666;
+  }
+
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 calc(50% - 32px);
+    }
+    .university-heading{
+        padding-top:25% ; 
+        font-size: 22px;
+   
+          }
+          .university-headtext{
+            font-size: 14px;
+          }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      flex: 1 1 100%;
+    }
+    .university-heading{
+        padding-top:25% ;    
+          }
+          .university-headtext{
+            font-size: 14px;
+          }
+  }

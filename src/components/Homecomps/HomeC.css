@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+.carousel-container {
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(221, 236, 250); 
+  }
+  
+  .carousel-title {
+    font-family: "Orbitron", serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .universities{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  
+  .carousel-item {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .carousel-image {
+    width: 100%;           /* Ensures the image fills the container width */
+    height: 250px;         /* Fixed height for all images */
+    object-fit: cover;     /* Ensures the image scales without distortion */
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .carousel-item:hover .carousel-image {
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+  
+  .carousel-university-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .carousel-university-country {
+    font-size: 14px;
+    color: #555;
+  }
+  
+
+
+  .custom-arrow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.822);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    margin-top: -6%;
+  }
+  
+  .custom-arrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .custom-arrow-left {
+    left: 10px;
+  }
+  
+  .custom-arrow-right {
+    right: 10px;
+  }
+  .call-to-action-uni {
+    background-color:rgb(221, 236, 250); 
+    color: rgba(0, 0, 0, 0.37); /* White font color */
+    border-color: orangered;
+    padding: 15px 20px;
+    font-size: 23px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 300;
+    text-transform: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.call-to-action-uni:hover {
+    background-color: #1e40af; /* Blue color on hover */
+    color: white; /* Keep white font on hover */
+}
+  
+  

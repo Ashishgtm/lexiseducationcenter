@@ -1,0 +1,113 @@
+
+  
+  .service-div {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 35%; /* Adjust width as needed */
+    margin-left: 2%;
+    margin-right: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+    margin-bottom: 1%;
+  }
+  
+  
+  .hovered {
+    background-color: lightblue; /* Change background color on hover */
+  }
+  .service-heading{
+padding-top:8% ;    font-size: 30px;
+    font-family: "Orbitron", serif;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+  
+  }
+  .service-headtext{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1%;
+  }
+  
+  .service-topics{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .readmore{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered;
+  }
+  .service-topics p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  
+  .services-icon {
+    margin-left: 10px; /* Adjust spacing as needed */
+  }
+
+
+  /* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .service-div {
+      width: 90%; /* Adjust the width for smaller screens */
+      padding: 10px; /* Reduce padding */
+      margin: 10px auto; /* Center align and reduce margins */
+    }
+  
+    .service-heading {
+      font-size: 24px; /* Reduce heading font size */
+      padding-top: 27%; /* Adjust padding */
+    }
+  
+    .service-headtext {
+      font-size: 16px; /* Reduce text size */
+      padding-top: 2%; /* Adjust padding */
+    }
+  
+    .service-topics {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center-align items */
+      margin: 5% 0; /* Adjust spacing */
+    }
+  
+    .service-topics p {
+      font-size: 16px; /* Reduce font size for paragraphs */
+      text-align: center; /* Center-align text */
+    }
+  }
+  
+  /* Additional tweaks for very small screens (mobile) */
+  @media (max-width: 480px) {
+    .service-div {
+      padding: 5px; /* Further reduce padding */
+      border-radius: 3px; /* Adjust border radius */
+    }
+  
+    .service-heading {
+      font-size: 20px; /* Further reduce heading size */
+    }
+  
+    .service-headtext {
+      font-size: 14px; /* Further reduce text size */
+    }
+  
+    .readmore {
+      font-size: 14px; /* Adjust read more link size */
+    }
+  
+    .service-topics {
+      margin: 2% 0; /* Adjust spacing further */
+    }
+  
+    .service-topics p {
+      font-size: 14px; /* Further reduce paragraph font size */
+    }
+  }
+  

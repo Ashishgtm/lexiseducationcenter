@@ -1,0 +1,93 @@
+.growth-section {
+    background-color: #2e4878; /* Matches the blue background */
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .growth-div{
+    display: flex;
+    
+  }
+  
+  .growth-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-family: "Orbitron", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+
+  }
+  
+  .growth-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 700px;
+    margin-left: 20%;
+    font-weight:500;
+
+    
+  }
+  
+  .growth-map {
+    margin: 30px 0;
+  }
+  
+  .growth-map img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .growth-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  
+  .stat {
+    background-color: #1a1a2e; /* Darker background for stats */
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .stat h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1e40af; /* Highlight color for numbers */
+  }
+  
+  .stat p {
+    font-size: 14px;
+    color: #cccccc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .growth-stats {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .growth-content h2 {
+      font-size: 24px;
+    }
+  
+    .growth-content p {
+      font-size: 14px;
+    }
+  
+    .stat {
+      width: 80%; /* Adjust stat box width for small screens */
+    }
+  }
+  

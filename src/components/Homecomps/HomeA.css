@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Hatran&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.lexisfirst{
+    background-image: url('./consultancyimage'); /* Replace with your image path */
+  background-size: cover;       
+  background-position: center;  
+  height: 125vh;                
+  width: 100%;
+  overflow: hidden; /* Ensure no content spills out */
+
+}
+
+.lexisfirst::before{
+    content : '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-blend-mode: multiply;
+    filter: contrast(1.5) brightness(0.5);
+    opacity: 1.5;
+        z-index: 1;
+}
+
+.overlay-text{
+    position: relative;
+    z-index: 2; /* Ensure it stays above the dark overlay */
+
+    top: 30%;
+    left: 5%;
+    color:white;
+    padding-top: 20px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.overlay-text2{
+    position: relative;
+    z-index: 2; /* Ensure it stays above the dark overlay */
+
+    color:white;
+    padding-top: 5px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.overlay-text3{
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: "Noto Sans Hatran", serif;
+    text-transform: none;
+}
+.dashh{
+    padding-right: 20px;
+}
+
+.call-to-action-btn {
+    background-color: #f39964d8; /* Original button background color */
+    color: white; /* White font color */
+    border-color: orangered;
+    padding: 15px 20px;
+    font-size: 23px;
+    font-family: "Bebas Neue", serif;
+
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.call-to-action-btn:hover {
+    background-color:transparent; /* Blue color on hover */
+    color: white; /* Keep white font on hover */
+}
+
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .overlay-text, .overlay-text2 {
+      font-size: 90px; /* Reduce font size for medium screens */
+    }
+    .overlay-text3 {
+      font-size: 24px;
+    }
+    .call-to-action-btn {
+      font-size: 20px;
+      padding: 12px 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .overlay-text, .overlay-text2 {
+      font-size: 70px; /* Further reduce font size for tablets */
+      line-height: 1.1;
+    }
+    .overlay-text3 {
+      font-size: 30px;
+    }
+    .call-to-action-btn {
+      font-size: 18px;
+      padding: 10px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .overlay-text, .overlay-text2 {
+      
+      font-size: 60px; /* Adjust font size for small screens */
+      left: 3%;        /* Adjust left positioning */
+    }
+    .overlay-text3 {
+      font-size: 20px;
+    }
+    .call-to-action-btn {
+      font-size: 16px;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+  }
+  

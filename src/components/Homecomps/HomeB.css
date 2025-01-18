@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.Homeb{
+    background-color:rgb(221, 236, 250); 
+}
+.goals-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 20px;
+  margin-left: 14%;
+}
+
+.goals-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.goals-content h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-family: "Orbitron", serif;
+  font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.goals-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+
+}
+
+.goals-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goals-content li {
+  margin-bottom: 20px;
+}
+
+.goals-content h4 {
+  font-size: 18px;
+  color: #2e4878;
+  margin-bottom: 5px;
+}
+
+.goals-content li p {
+  font-size: 14px;
+  color: #666666;
+  margin: 0;
+}
+
+.goals-images {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  flex: 1;
+  align-items: center;
+  margin-left: -15%;
+}
+
+.goals-images .main-image {
+  margin-top: 3%;
+  margin-left: 3%;
+  width: 40%;
+  max-width: 400px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+.aboutfirst{
+    padding-top: 2%;
+    font-size: 30px;
+    font-family: "Orbitron", serif;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.turning{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 3%;
+  }
+  
+  .imageman img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 55%;
+  }
+  
+  .text p {
+    margin-left: 25%;
+    margin-right: 15%;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .call-to-action-button {
+    background-color:rgb(221, 236, 250); 
+    color: rgba(0, 0, 0, 0.37); /* White font color */
+    border-color: orangered;
+    padding: 15px 20px;
+    font-size: 23px;
+    font-family: "Bebas Neue", serif;
+    margin-left: 45%;
+    font-weight: 300;
+    text-transform: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.call-to-action-button:hover {
+    background-color: #1e40af; /* Blue color on hover */
+    color: white; /* Keep white font on hover */
+}
+
+
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column; /* Stack items vertically on medium screens */
+    text-align: center;
+  }
+  
+  .imageman img {
+    width: 80%;
+    margin-left: 0; /* Center image */
+  }
+  
+  .text p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .call-to-action-button {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutcore, .aboutfirst {
+    font-size: 24px; /* Reduce title size for tablets */
+  }
+  
+  .cores, .turning, .corepargraph {
+    font-size: 18px;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+  
+  .text p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
+  }
+  
+  .call-to-action-button {
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutcore, .aboutfirst {
+    font-size: 20px; /* Further reduce title size for small screens */
+  }
+  
+  .cores, .turning {
+    font-size: 16px;
+  }
+  
+  .corepargraph {
+    font-size: 16px;
+  }
+  
+  .imageman img {
+    width: 100%;
+  }
+  
+  .text p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+  }
+  
+  .call-to-action-button {
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .goals-section {
+    flex-direction: column;
+  }
+
+  .goals-content {
+    text-align: center;
+  }
+
+  .goals-images {
+      display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .goals-images  {
+display: none;
+  }
+ 
+}
+
+@media (max-width: 480px) {
+  .goals-images {
+display: none;  }
+  
+  .goals-images {
+    display: none;
+  }
+  .secondary-image{
+    display: none;
+  }
+}
