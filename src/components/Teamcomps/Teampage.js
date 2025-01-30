@@ -1,42 +1,43 @@
 import React from "react";
 import "./Teampage.css";
-import Bishal from './Team-image/bishal.jpg'
-import Bettye from './Team-image/president.jpg'
-import Finance from './Team-image/finance.jpg'
-import Cheif from './Team-image/cheif.jpg'
-import Thomas from './Team-image/Thomas.jpg'
-import Reception from './Team-image/reception.jpg'
+import Bishal from './Team-image/bishal.png'
+import Chairman from './Team-image/Director.JPG'
+import Senior from './Team-image/senior-adviser.png'
+import John from './Team-image/john.JPG'
+import Aashma from './Team-image/aasma.JPG'
+import Aadit from './Team-image/aadit.jpg'
 const Team = () => {
   const teamMembers = [
     {
-      name: "Kazzi Bishal Raj Basnet",
-      title: "CEO & Co-Founder",
-            image:Bishal  
+      name: "Bibek Basnet",
+      title: "Chairman",
+            image:Chairman  
           },
     {
-      name: "Bettye Steuber",
-      title: "President",
-      image: Bettye, 
+      name: "Bishal Basnet",
+      title: "CEO",
+      image: Bishal, 
     },
     {
-      name: "Lana Rodhes",
-      title: "Chief Financial Officer",
-      image: Finance, 
+      name: "Doyong Jung",
+      title: "Senior Advisor",
+      image: Senior, 
     },
     {
-        name: "Brian Duffy",
-        title: "Proffessor",
-              image:Cheif,
+        name: "John Karki",
+        title: "Counsellor",
+              image:John,
             },
+     
       {
-        name: "Thomas Shelby",
-        title: "Chief Marketing Officer",
-        image: Thomas, 
+        name: "Aadit Thapa",
+        title: "Destination Head",
+        image: Aadit, 
       },
       {
-        name: "Alina Lopez",
-        title: "Receptionist",
-        image: Reception, 
+        name: "Aashma Shrestha",
+        title: "Recepionist",
+        image: Aashma, 
       },
   ];
 
