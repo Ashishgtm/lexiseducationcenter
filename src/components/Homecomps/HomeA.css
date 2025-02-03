@@ -20,8 +20,10 @@
     background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
     background-blend-mode: multiply;
     filter: contrast(1.5) brightness(0.5);
-    opacity: 1.5;
-        z-index: 1;
+    opacity: 3.5;
+        z-index:1;
+        height: 125vh;
+
 }
 
 .overlay-text{
@@ -84,21 +86,12 @@
 
 
 /* Responsive */
-@media (max-width: 1200px) {
-    .overlay-text, .overlay-text2 {
-      font-size: 90px; /* Reduce font size for medium screens */
-    }
-    .overlay-text3 {
-      font-size: 24px;
-    }
-    .call-to-action-btn {
-      font-size: 20px;
-      padding: 12px 18px;
-    }
-  }
+
   
   @media (max-width: 768px) {
+   
     .overlay-text, .overlay-text2 {
+      
       font-size: 70px; /* Further reduce font size for tablets */
       line-height: 1.1;
     }
@@ -112,10 +105,20 @@
   }
   
   @media (max-width: 480px) {
+
+    .lexisfirst{
+   
+    height: 125vh;  
+    
+  
+  }
+  .lexisfirst::before{
+    height: 125vh;  
+
+  }
     .overlay-text, .overlay-text2 {
       
       font-size: 60px; /* Adjust font size for small screens */
-      left: 3%;        /* Adjust left positioning */
     }
     .overlay-text3 {
       font-size: 20px;

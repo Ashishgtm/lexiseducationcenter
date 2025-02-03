@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-.Homeb{
+.hero-section{
     background-color:rgb(221, 236, 250); 
 }
 .goals-section {
@@ -190,6 +190,26 @@
 }
 
 @media (max-width: 480px) {
+  .goals-section {
+margin-left: -3%;
+  }
+  .goals-content h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  
+.goals-content p {
+  font-size: 15px;
+}
+.goals-content h4 {
+  font-size: 18px;
+  text-align: left;
+}
+.goals-content li p {
+  font-size: 14px;
+  text-align: start;
+}
+
   .aboutcore, .aboutfirst {
     font-size: 20px; /* Further reduce title size for small screens */
   }
@@ -222,6 +242,8 @@
 @media (max-width: 768px) {
   .goals-section {
     flex-direction: column;
+    margin-left: -3%;
+
   }
 
   .goals-content {

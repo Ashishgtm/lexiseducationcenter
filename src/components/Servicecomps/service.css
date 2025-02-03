@@ -63,8 +63,7 @@ padding-top:8% ;    font-size: 30px;
   
     .service-heading {
       font-size: 24px; /* Reduce heading font size */
-      padding-top: 27%; /* Adjust padding */
-    }
+margin-top: 10%;    }
   
     .service-headtext {
       font-size: 16px; /* Reduce text size */
@@ -92,6 +91,7 @@ padding-top:8% ;    font-size: 30px;
   
     .service-heading {
       font-size: 20px; /* Further reduce heading size */
+      margin-top: 25%;
     }
   
     .service-headtext {

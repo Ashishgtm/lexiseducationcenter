@@ -1,0 +1,276 @@
+
+.event-heading h2 {
+    text-align: center;
+    padding-top:6% ;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Orbitron", serif;
+    
+  }
+  .event-heading p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+  
+  }
+
+  .about-content { /* Styles for the new wrapper */
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically center content */
+    max-width: 900px;
+    width: 85%;
+    padding: 2rem;
+    margin: 0 auto; /* Key for horizontal centering */
+  }
+  
+  .books-library {
+    width: 450px;
+    height: 450px;
+    border-radius: 30%;
+    object-fit: cover;
+    margin-right: 2rem; /* Space between image and text */
+    margin-left: 35%;
+    
+  }
+  .lexis-text1{
+    color:#2e4878;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: start;
+    
+   
+  }
+  
+  .about-text-right{
+    margin-left: -33%;
+  
+  }
+
+
+
+.about-textsection{
+    margin-top: 1%;
+text-align: center;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .about-textsection {
+    text-align: left;
+  }
+
+ 
+  .lexis-text{
+    color:black;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+
+  }
+  
+  .what-we-offer p{
+    font-size: 15px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-family: "Orbitron", serif;
+      text-decoration: underline;
+  
+  }
+
+.about-images{
+  width: 300px;
+  height: 300px;
+ padding-left: 10px;
+ border-radius: 10%;
+
+}
+.images3{
+  text-align: center;
+}
+
+
+  .whychoose{
+    color:#2e4878;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 2%;
+  }
+  .whychoosedivision {
+    /* Remove any text-align: center; rules */
+    text-align: left; /* Explicitly align text to the left */
+    /* Other styles... */
+}
+
+.aimsdivision {
+    color:#2e4878;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: start;
+}
+
+
+.ourmission-text{
+  text-align: start;
+}
+
+.iconsaims{
+    font-size: 12px;
+    font-family: "Orbitron", serif;
+
+}
+.facheck-content{
+  text-align: start;
+}
+.about-images8{
+  
+  width: 300px;
+  height: 300px;
+ padding-left: 10px;
+ border-radius: 10%;
+}
+.image-row-container {
+  width: 100%; /* Or your desired container width */
+  /* overflow: hidden;  Important: hides images that go outside the container */
+  /* white-space: nowrap; Important: keeps images in a single row */
+  margin-top: 20px; /* Add some spacing above the marquee */
+}
+
+.about-images8 {
+  width: 200px;
+  height: 200px;
+  padding-left: 10px;
+  border-radius: 10%;
+  display: inline-block; /* Important: makes images sit side-by-side */
+  margin-right: 10px; /* Add spacing between images */
+
+}
+.about-images.zoomable:hover { /* Target images with the zoomable class on hover */
+  transform: scale(15.1); /* Adjust the scale factor for the zoom level */
+  cursor: pointer; /* Change the cursor to a pointer to indicate interactivity */
+}
+
+
+
+@media (max-width: 768px) {
+  
+
+ 
+  
+  .books-library {
+    width: 250px; /* Slightly smaller image */
+    height: 250px;
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 1.5rem; /* Add space below image */
+  }
+  .about-textsection {
+    font-size: 14px;
+    text-align: left;
+    
+  }
+  .about-textsection p{
+    padding-left: 24%;
+  }
+  .event-heading h2 {
+    font-size: 25px;
+    margin-top: 10%;
+  }
+
+  .event-heading p {
+    font-size: 17px;
+  }
+
+  .about-images {
+    width: 200px;
+    height: 200px;
+  }
+  .aimsdivision-p{
+    text-align: left;
+    margin-left: -18%;
+  }
+  .lexis-text1{
+    font-size: 28px;
+    padding-left: 6%;
+  }
+   .whychoose, .aimsdivision {
+    font-size: 22px;
+  }
+
+  .whychoosedivision p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content {
+    flex-direction: column;
+margin-top: -4%;
+    overflow: hidden;
+    
+  }
+  .books-library {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+  .event-heading h2 {
+    padding-top: 22%;
+    font-size: 20px;
+  }
+
+  .event-heading p {
+    font-size: 15px;
+  }
+
+  .about-textsection {
+    font-size: 13px;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .about-textsection p{
+    text-align: left;
+  }
+
+  .about-images {
+    width: 150px;
+    height: 150px;
+  }
+  .aimsdivision-p{
+    text-align: left;
+    margin-left: -18%;
+  }
+  .lexis-text {
+    font-size: 15px;
+  }
+
+  .lexis-text1{
+    
+    font-size: 25px;
+    padding-left: 6%;
+
+  }
+   .whychoose, .aimsdivision {
+    font-size: 20px;
+  }
+
+  .iconsaims {
+    font-size: 10px;
+  }
+  .what-we-offer p{
+   
+      text-align: center;
+      
+  
+  }
+
+}

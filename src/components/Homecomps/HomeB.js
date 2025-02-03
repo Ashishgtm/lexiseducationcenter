@@ -1,12 +1,12 @@
 import React from 'react'
 import './HomeB.css'
 import manimage from './HomeBimage1'
-
+import { Link } from 'react-router-dom'
 
 const HomeB = () => {
   return (
 
-    <div className='Homeb'>
+    <div className='hero-section'>
           <section className="goals-section">
 
         <div className="goals-content">
@@ -68,7 +68,7 @@ const HomeB = () => {
          account individual interests, academic backgrounds, and long-term career goals. Whether 
          it’s finding the right program, securing scholarships, or navigating visa procedures, we
             are here to support you every step of the way.</p>
-            <button class="call-to-action-button">Learn More ...</button>
+           <Link to='/about'> <button class="call-to-action-button">Learn More ...</button></Link>
 
       </div>
     </div>

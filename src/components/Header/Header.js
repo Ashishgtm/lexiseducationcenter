@@ -25,11 +25,10 @@ const Header = () => {
         ☰
       </button>
       <nav className={`nav ${isNavOpen ? 'open' : ''}`}>
-      <Link to="/home" className={location.pathname === "/home" ? "active" : ""}>HOME</Link> 
+      <Link to="/home" className={location.pathname === "/home" ? "active" : ""}>HOME</Link>
+      <Link to="/about" className={location.pathname === "/about" ? "active" : ""}>ABOUT</Link> 
       <Link to="/universities" className={location.pathname === "/universities" ? "active" : ""}>UNIVERSITIES</Link> 
-
-        <Link to="/services" className={location.pathname === "/services" ? "active" : ""}>SERVICES</Link>
-        <Link to="/events" className={location.pathname === "/events" ? "active" : ""}>EVENTS</Link> 
+      <Link to="/services" className={location.pathname === "/services" ? "active" : ""}>SERVICES</Link>
         <Link to="/team" className={location.pathname === "/team" ? "active" : ""}>TEAM</Link> 
         <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>CONTACT US</Link> 
       </nav>

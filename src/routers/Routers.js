@@ -6,7 +6,7 @@ import { Services } from '../pages/Services';
 import Universities from '../pages/Universities';
 import Contact from '../pages/Contact';
 import Team from '../pages/Team';
-import Events from '../pages/Events';
+import Aboutus from '../pages/Aboutuspage';
 
 const Routers = () => {
   return ( 
@@ -19,7 +19,7 @@ const Routers = () => {
 <Route path='/universities' element={<Universities/>} />
 <Route path='/contact' element={<Contact/>} />
 <Route path='/team' element={<Team/>}/>
-<Route path='/events' element={<Events/>}/>
+<Route path='/about' element={<Aboutus/>}/>
 
 
 

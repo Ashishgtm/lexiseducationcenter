@@ -30,6 +30,9 @@
     padding: 2px;
   }
   
+  .link-class{
+    text-decoration: none;
+  }
   .footer-item:hover {
     color: #1e40af;
   }

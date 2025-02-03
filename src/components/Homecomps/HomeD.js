@@ -4,68 +4,68 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; // Import slick-carousel styles
 import "slick-carousel/slick/slick-theme.css";
 import './HomeD.css'
-import Ashish from './images/ashish.jpg';
-import Suman from './images/suman';
+import Udaya from './images/udaya.jpg';
+import Rakshya from './images/rakshya.JPG'
 import pooja from './images/pooja.jpg';
-import pawan from './images/pawan.jpg';
-import Bishal from './images/bishal.jpg';
-import milan from './images/milan.jpg';
-import nischal from './images/nischal.jpg';
+import Archana from './images/archana.JPG';
+import sapan from './images/sapan.jpg'
+import safalta from './images/safalta.jpg'
+import adarsha from './images/adarsha.jpg'
 
 const testimonials = [
   {
-    name: "Ashish Gtm",
-    role: "Computer Engineer",
+    name: "Udaya Thapa",
+    role: "Student",
     rating: 5,
     message:
-      "Australia is a land of opportunity with fine education. So, each and every new commerce should emphasize their visa processing from the right place, and I personally suggest Lexis to be the best place out there in Nepal.",
-    image: Ashish
+      "US is a land of opportunity with fine education. So, each and every new commerce should emphasize their visa processing from the right place, and I personally suggest Lexis to be the best place out there in Nepal.",
+    image: Udaya
   },
   {
     name: "Pooja Guragain",
-    role: "Graduate",
+    role: "RN",
     rating: 5,
     message: "I felt confident every step of the way knowing I was in capable hands. Highly recommended!",
     image: pooja
 
   },
   {
-    name: "Suman Shrestha",
-    role: "Professional",
+    name: "Rakshya Katuwal",
+    role: "Applicant",
     rating: 4,
     message: "Their mentorship has been invaluable. Lexis has a way of bringing out the best in everyone they work with.",
-    image: Suman
+    image: Rakshya
 
   },
   {
-    name: "Pawan Giri",
+    name: "Archana Chettri",
     role: "Student",
     rating: 5,
     message: "The guidance and support I received were top-notch. Lexis truly cares about helping others achieve their dreams.",
-    image: pawan
+    image: Archana
 
   },
   {
-    name: "Bishal Pokhrel",
+    name: "Adarsha Aryal",
     role: "Applicant",
     rating: 4,
     message: "Their innovative approach to cybersecurity helped secure our operations. Highly recommended for anyone serious about protecting their digital assets!",
-    image: Bishal
+    image: adarsha
   },
   {
-    name: "Milan Dhakal",
+    name: "Sapan Adhikari",
     role: "Student",
     rating: 5,
     message: "The professionalism and expertise were beyond my expectations. I highly recommend their services to anyone seeking reliable and efficient solutions!",
-    image: milan
+    image: sapan
 
   },
   {
-    name: "Nischal Panta",
+    name: "Safalta Giri",
     role: "Applicant",
     rating: 4,
     message: "Working with Lexis has been a game-changer for me. Their knowledge and dedication have made a significant impact on my goals.",
-    image: nischal
+    image: safalta
 
   },
 

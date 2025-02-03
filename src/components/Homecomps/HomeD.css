@@ -1,6 +1,7 @@
 .testimonials-container {
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: -6%;
   padding: 20px;
   text-align: center;
 }
@@ -60,4 +61,13 @@
 .message {
   font-style: italic;
   color: #333;
+}
+
+@media (max-width: 768px) {
+  .testimonials-container {
+    
+    margin-bottom: -20%;
+    
+  }
+
 }
