@@ -86,49 +86,7 @@ const EventCards = () => {
       </div>
       <div className="container-about">
         <div className="about-textsection">
-          <div className="about-content">
-            <div className="about-text-right">
-              <span className="lexis-text1">Making YOUR Journey !!</span>
-              <p>
-                We believe that education is the cornerstone of personal and
-                professional growth. We understand that navigating the
-                complexities of today's educational landscape can be
-                challenging, whether you're a student striving for academic
-                excellence, a professional seeking career advancement, or an
-                institution looking to enhance its offerings. That's where we
-                come in. <br /><br/>
-                Our team of experienced consultants brings a wealth of knowledge
-                and a proven track record of success to every engagement. We
-                empower individuals to unlock their full potential by providing
-                personalized guidance tailored to their unique learning styles,
-                aspirations, and career goals. From course selection and
-                application support to exam preparation and skill development,
-                we offer comprehensive support at every stage of your
-                educational journey. We help you identify the right educational
-                path, maximizing your opportunities for success in a competitive
-                world. We also provide expert advice on funding options,
-                scholarships, and financial aid to make education accessible and
-                affordable.
-                <br /><br/>
-                For institutions, we partner to develop and implement innovative
-                strategies that enhance teaching effectiveness, improve student
-                outcomes, and foster a thriving learning environment. We offer
-                data-driven insights and best practices to optimize curriculum
-                design, assessment methods, and educational resources. We are
-                committed to providing personalized, results-oriented solutions
-                that empower our clients to achieve their educational and career
-                aspirations.
-              </p>
-            </div>
-            <div className="about-image-left">
-              <img
-                src="https://i.pinimg.com/736x/97/0d/2b/970d2b0fdaaf15400060fc872e0412b9.jpg"
-                alt="books"
-                className="books-library"
-              />
-            </div>
-          </div>
-
+          
           <div className="whychoose">Why Choose Lexis Education Center?</div>
           <div className="whychoosedivision">
             <ul>

@@ -17,40 +17,6 @@
   
   }
 
-  .about-content { /* Styles for the new wrapper */
-    display: flex;
-    flex-direction: row;
-    align-items: center; /* Vertically center content */
-    max-width: 900px;
-    width: 85%;
-    padding: 2rem;
-    margin: 0 auto; /* Key for horizontal centering */
-  }
-  
-  .books-library {
-    width: 450px;
-    height: 450px;
-    border-radius: 30%;
-    object-fit: cover;
-    margin-right: 2rem; /* Space between image and text */
-    margin-left: 35%;
-    
-  }
-  .lexis-text1{
-    color:#2e4878;
-    font-size: 42px;
-    font-weight: bold;
-    margin-top: 2%;
-    text-align: start;
-    
-   
-  }
-  
-  .about-text-right{
-    margin-left: -33%;
-  
-  }
-
 
 
 .about-textsection{
@@ -163,15 +129,6 @@ font-size: 18px;
 
 @media (max-width: 768px) {
   
-
- 
-  
-  .books-library {
-    width: 250px; /* Slightly smaller image */
-    height: 250px;
-    margin-right: 0; /* Remove right margin */
-    margin-bottom: 1.5rem; /* Add space below image */
-  }
   .about-textsection {
     font-size: 14px;
     text-align: left;
@@ -211,17 +168,7 @@ font-size: 18px;
 }
 
 @media (max-width: 480px) {
-  .about-content {
-    flex-direction: column;
-margin-top: -4%;
-    overflow: hidden;
-    
-  }
-  .books-library {
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-}
+ 
   .event-heading h2 {
     padding-top: 22%;
     font-size: 20px;
@@ -274,3 +221,5 @@ margin-top: -4%;
   }
 
 }
+
+
