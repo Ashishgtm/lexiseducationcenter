@@ -3,9 +3,11 @@ import "./Teampage.css";
 import Bishal from './Team-image/bishal.png'
 import Chairman from './Team-image/Director.JPG'
 import Senior from './Team-image/senior-adviser.png'
+import Languageteacher from './Team-image/language-teacher.jpeg'
 import John from './Team-image/john.JPG'
 import Aashma from './Team-image/aasma.JPG'
 import Aadit from './Team-image/aadit.jpg'
+
 const Team = () => {
   const teamMembers = [
     {
@@ -22,6 +24,11 @@ const Team = () => {
       name: "Doyong Jung",
       title: "Senior Advisor",
       image: Senior, 
+    },
+    {
+      name: "Raj Tamang",
+      title: "Korean Language Instructor",
+      image: Languageteacher, 
     },
     {
         name: "John Karki",
