@@ -7,16 +7,16 @@ import Flag from 'react-world-flags';
 
 const universities = [
   {
-    name: 'University of Cambridge',
+    name: 'University Of Sunderland',
     country: 'United Kingdom',
     flagCode: 'GB', // ISO country code for the UK
-    image: 'https://cdn.britannica.com/85/13085-050-C2E88389/Corpus-Christi-College-University-of-Cambridge-England.jpg',
+    image: 'https://images.shiksha.com/mediadata/images/1537432048phphoR0m5.jpeg',
   },
   {
-    name: 'Seoul National University ',
+    name: 'Pyeongtaek University',
     country: 'South Korea',
     flagCode: 'KR', // ISO country code for South Korea
-    image: 'https://mcdonnell.wustl.edu/app/uploads/2020/10/SNU.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/6/67/%ED%8F%89%ED%83%9D%EB%8C%80%ED%95%99%EA%B5%90%28%E5%B9%B3%E6%BE%A4%E5%A4%A7%E5%AD%B8%E6%A0%A1%2C_Pyeongtaek_University%29.jpg',
   },
   {
     name: 'Webster University',
@@ -25,17 +25,43 @@ const universities = [
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAIKifGa-2xx1pgNgvRuYNfmjgkhBmPV26FA&s',
   },
   {
-    name: 'University of Tokyo',
-    country: 'Japan',
-    flagCode: 'JP', // ISO country code for Japan
-    image: 'https://images.unsplash.com/photo-1593344560663-4c1cdc7d28ba?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    name: 'Dong-eui University',
+    country: 'South Korea',
+    flagCode: 'KR', // ISO country code for Japan
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Dong-Eui_Univ_19.JPG/1280px-Dong-Eui_Univ_19.JPG',
   },
   {
-    name: 'Macquarie University',
+    name: 'Cardiff University',
+    country: 'United Kingdom, Wales',
+    flagCode: 'GB', // ISO country code for the USA
+    image: 'https://images.shiksha.com/mediadata/images/1534412382phpYPav1d.jpeg',
+  },
+  {
+    name: 'La Trobe University',
     country: 'Australia',
     flagCode: 'AUS', 
-    image: 'https://studylink.org/vnt_upload/study/03_08_2021/example_page_banner_02_small.jpg',
+    image: 'https://blueskyconsultancy.com/wp-content/uploads/2023/03/latrobe-university.webp',
   },
+  {
+    name: 'Coventry University',
+    country: 'United Kingdom',
+    flagCode: 'GB', // ISO country code for the UK
+    image: 'https://images.shiksha.com/mediadata/images/1535015055phpMMRSDL_g.jpg',
+  },
+  {
+    name: 'Namseoul University ',
+    country: 'South Korea',
+    flagCode: 'KR', // ISO country code for Japan
+    image: 'https://lh5.googleusercontent.com/p/AF1QipMsQaGi1Or-r-VOMcIFpry8YRvp7Af2-_Qjqa4n=w544-h306-k-no',
+  },
+  {
+    name: 'Washington University of Science and Technology (WUST)',
+    country: 'United State Of America',
+    flagCode: 'US', // ISO country code for the USA
+    image: 'https://lh3.googleusercontent.com/p/AF1QipNezjtwYG8eJ4LeRHDzIE46comO8X7Wnw-VWk8b=s680-w680-h510',
+  }
+ 
+
 ];
 
 
