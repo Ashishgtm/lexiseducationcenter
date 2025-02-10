@@ -14,7 +14,26 @@
         padding-top: 1%;
       }
 
-
+.card-link{
+  background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    flex: 1 1 calc(33.33% - 32px);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.card-link:hover{
+text-decoration: none;
+transform: scale(1.1);
+gap: 22px;
+border-radius: 25px;
+height: 20%;
+}
 
 
 .uni-container {
@@ -76,6 +95,9 @@
     .card {
       flex: 1 1 calc(50% - 32px);
     }
+    .card-link {
+      flex: 1 1 calc(50% - 32px);
+    }
     .university-heading{
         margin-top: 10%; 
         font-size: 22px;
@@ -88,6 +110,9 @@
   
   @media (max-width: 480px) {
     .card {
+      flex: 1 1 100%;
+    }
+    .card-link {
       flex: 1 1 100%;
     }
     .university-heading{

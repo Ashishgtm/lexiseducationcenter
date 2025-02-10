@@ -1,6 +1,7 @@
 import React from 'react'
 import './Universities.css'
 import Flag from 'react-world-flags';
+import { Link } from 'react-router-dom';
 
 const UniversitiesA = () => {
 
@@ -10,6 +11,7 @@ const UniversitiesA = () => {
           country: "South Korea",
           flagCode: 'KR', // ISO country code for South Korea
           img: "https://i.pinimg.com/736x/9c/51/eb/9c51eb944358854469a823ce93eabdc0.jpg", // Replace with an appropriate URL
+          link: "/southkoreaUni",
         },
         {
           name: "Study in USA",
@@ -70,6 +72,11 @@ const UniversitiesA = () => {
 
         <div className="uni-container">
       {universities.map((university, index) => (
+        <Link
+        to={university.link} // Use the link from the university object
+        key={index}
+        className="card-link" // Add a class for styling if needed
+      >
         <div className="card" key={index}>
           <img src={university.img} alt={university.name} className="card-img" />
           <div className="card-info">
@@ -81,6 +88,7 @@ const UniversitiesA = () => {
             </p>
           </div>
         </div>
+        </Link>
       ))}
     </div>
 
