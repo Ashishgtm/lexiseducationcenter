@@ -11,6 +11,7 @@ import Archana from './images/archana.JPG';
 import sapan from './images/sapan.jpg'
 import safalta from './images/safalta.jpg'
 import adarsha from './images/adarsha.jpg'
+import Garima from './images/garima.jpeg'
 
 const testimonials = [
   {
@@ -35,6 +36,14 @@ const testimonials = [
     rating: 4,
     message: "Their mentorship has been invaluable. Lexis has a way of bringing out the best in everyone they work with.",
     image: Rakshya
+
+  },
+  {
+    name: "Garima Dhakal",
+    role: "Applicant",
+    rating: 5,
+    message: "Their guidance and support have truly helped me reach my full potential. The team is dedicated, knowledgeable, and always ready to help!",
+    image: Garima
 
   },
   {

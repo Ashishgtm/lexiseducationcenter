@@ -1,0 +1,190 @@
+/* Base styles for all devices */
+.usa-container {
+    padding-top: 5%;
+    padding-left: 5%;
+    box-sizing: border-box; /* Ensures padding is included in the element's total width */
+}
+
+.usa-container h1 {
+    font-family: "Orbitron", serif;
+    padding-top: 3%;
+
+}
+
+.university-header{
+    display: flex;
+}
+.uni-flag{
+    padding-left: 7%;
+    padding-top: 23%;
+    width: 40%;
+    height: 40%;
+}
+
+
+.usa-container .description{
+    margin-top: -0.5%;
+}
+
+
+.usa-container p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6; /* Improves readability */
+}
+
+.usa-container h2 {
+    color: #2e4878;
+}
+
+.lexis-text {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.usa-unis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Increased gap for better spacing */
+    padding: 10px; /* Adds padding to the container */
+}
+
+.uni-card {
+    text-align: center;
+    width: 30%; /* Default width for larger screens */
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding is included in the element's total width */
+}
+
+.usa-uni {
+    width: 100%; /* Makes images responsive */
+    height: 220px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures all images are cropped properly */
+    border-radius: 10px;
+}
+
+.uni-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px; /* Increased margin for better spacing */
+}
+
+.uni-location {
+    color: gray;
+    font-size: 1em;
+    margin-top: 5px; /* Added margin for better spacing */
+}
+
+/* Responsive adjustments for tablets */
+@media screen and (max-width: 1024px) {
+    .usa-container h1 {
+        font-size: 28px;
+    
+    }
+    .usa-container p{
+        font-size: 15px;
+    
+    }
+    .usa-container h2 {
+        font-size: 22px;
+    
+    }
+    .lexis-text {
+        font-size: 13px;
+        
+    }
+    .usa-container {
+        padding-top: 8%; /* Adjusted padding for tablets */
+        padding-left: 3%;
+    }
+
+    .uni-card {
+        width: 45%; /* Adjust width for tablets */
+    }
+
+    .usa-uni {
+        height: 200px; /* Slightly reduced height for tablets */
+    }
+}
+
+/* Responsive adjustments for smaller tablets and large phones */
+@media screen and (max-width: 768px) {
+    .usa-container {
+        padding-top: 10%; /* Adjusted padding for smaller screens */
+        padding-left: 2%;
+    }
+    .usa-container h1 {
+        font-size: 28px;
+    
+    }
+    .usa-container p{
+        font-size: 15px;
+    
+    }
+    .usa-container h2 {
+        font-size: 22px;
+    
+    }
+    .lexis-text {
+        font-size: 13px;
+        
+    }
+    .uni-card {
+        width: 70%; /* Adjust width for smaller tablets */
+    }
+
+    .usa-uni {
+        height: 180px; /* Reduced height for smaller screens */
+    }
+
+    .uni-name {
+        font-size: 1.1em; /* Slightly smaller font size for smaller screens */
+    }
+
+    .uni-location {
+        font-size: 0.9em; /* Slightly smaller font size for smaller screens */
+    }
+}
+
+/* Responsive adjustments for mobile phones */
+@media screen and (max-width: 480px) {
+    .usa-container {
+        padding-top: 10%; /* Adjusted padding for mobile phones */
+        padding-left: 5px; /* Reduced left padding for mobile phones */
+    }
+    .usa-container h1 {
+        font-size: 28px;
+    
+    }
+    .usa-container p{
+        font-size: 15px;
+    
+    }
+    .usa-container h2 {
+        font-size: 22px;
+    
+    }
+    .lexis-text {
+        font-size: 13px;
+        
+    }
+    .uni-card {
+        width: 100%; /* Full width for mobile phones */
+        padding: 5px; /* Reduced padding for mobile phones */
+    }
+
+    .usa-uni {
+        height: 150px; /* Reduced height for mobile phones */
+    }
+
+    .uni-name {
+        font-size: 1em; /* Smaller font size for mobile phones */
+    }
+
+    .uni-location {
+        font-size: 0.8em; /* Smaller font size for mobile phones */
+    }
+}

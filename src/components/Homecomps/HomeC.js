@@ -27,7 +27,7 @@ const universities = [
   {
     name: 'Dong-eui University',
     country: 'South Korea',
-    flagCode: 'KR', // ISO country code for Japan
+    flagCode: 'KR', 
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Dong-Eui_Univ_19.JPG/1280px-Dong-Eui_Univ_19.JPG',
   },
   {
@@ -52,7 +52,7 @@ const universities = [
     name: 'Namseoul University ',
     country: 'South Korea',
     flagCode: 'KR', // ISO country code for Japan
-    image: 'https://lh5.googleusercontent.com/p/AF1QipMsQaGi1Or-r-VOMcIFpry8YRvp7Af2-_Qjqa4n=w544-h306-k-no',
+    image: 'https://thumbs.dreamstime.com/b/seoul-national-university-hospital-building-jongno-gu-city-south-korea-july-122611795.jpg',
   },
   {
     name: 'Washington University of Science and Technology (WUST)',
