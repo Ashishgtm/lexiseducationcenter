@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import './HomeD.css'
 import Udaya from './images/udaya.jpg';
 import Rakshya from './images/rakshya.JPG'
-import pooja from './images/pooja.jpg';
 import Archana from './images/archana.JPG';
 import sapan from './images/sapan.jpg'
 import safalta from './images/safalta.jpg'
@@ -22,14 +21,7 @@ const testimonials = [
       "US is a land of opportunity with fine education. So, each and every new commerce should emphasize their visa processing from the right place, and I personally suggest Lexis to be the best place out there in Nepal.",
     image: Udaya
   },
-  {
-    name: "Pooja Guragain",
-    role: "RN",
-    rating: 5,
-    message: "I felt confident every step of the way knowing I was in capable hands. Highly recommended!",
-    image: pooja
-
-  },
+ 
   {
     name: "Rakshya Katuwal",
     role: "Applicant",
