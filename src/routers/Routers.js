@@ -45,6 +45,7 @@
 
 
 
+
 import React, { useState, useEffect } from "react";
 import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
 import { Home } from "../pages/Home";
@@ -62,7 +63,7 @@ const Routers = () => {
 
   useEffect(() => {
     // Show blank page for 5 seconds, then revert back to normal routes
-    const timer = setTimeout(() => setShowBlank(false), 120000);
+    const timer = setTimeout(() => setShowBlank(false), 1200000);
     return () => clearTimeout(timer);
   }, []);
 
