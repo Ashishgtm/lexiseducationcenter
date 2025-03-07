@@ -63,7 +63,7 @@ const Routers = () => {
 
   useEffect(() => {
     // Show blank page for 5 seconds, then revert back to normal routes
-    const timer = setTimeout(() => setShowBlank(false), 1200000);
+    const timer = setTimeout(() => setShowBlank(false), 4800000);
     return () => clearTimeout(timer);
   }, []);
 
