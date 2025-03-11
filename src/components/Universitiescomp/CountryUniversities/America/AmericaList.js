@@ -37,6 +37,17 @@ const universities = [
     location: " 84 W South St, Wilkes-Barre, PA 18766, USA",
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVcRJwaSrYhn0O1K8CETxRvUQPhEtqXRAnnw&s',
   },
+  {
+    name: "Avila University",
+    location: "  11901 Wornall Rd, Kansas City, MO 64145, USA",
+    image: 'https://www.avila.edu/wp-content/uploads/2020/07/Avila-south-view_lores-scaled.jpg',
+  },
+  {
+    name: "Rowan University ",
+    location: "  201 Mullica Hill Rd, Glassboro, NJ 08028,  USA",
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMeTWE1mflFduf895SvPjaAPAVJYCe3VqWNQ&s',
+  },
+ 
 ];
 
 const StudyUSA = () => {

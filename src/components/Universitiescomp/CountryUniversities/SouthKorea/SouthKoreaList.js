@@ -76,6 +76,19 @@ const universities = [
     image:
       "https://gogohanguk.com/wp-content/uploads/2023/12/SIlla.jpg",
   },
+  {
+    name: "aSSIST University",
+    location: " 46 Ewhayeodae 2-gil, Seodaemun-gu, Seoul, South Korea",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2SPy9yWg029BvoDZcke9ouTgcIZxnYHF8eA&s",
+  },
+  {
+    name: "Jeju National University",
+    location: "102 Jejudaehak-ro, 특별자치도 Jeju-si, Jeju-do, South Korea",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Jnuimage.jpg/640px-Jnuimage.jpg",
+  },
+  
 ];
 
 const SouthKoreaList = () => {

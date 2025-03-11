@@ -56,6 +56,36 @@ const universities = [
     image:
       "https://pxlv6-mdxacuk.terminalfour.net/fit-in/2200x1610/filters:quality(75)/19x0:1581x1143/prod01/channel_3/media/training-area/training-archive/Middlesex_University,_The_Burroughs,_Hendon.jpg",
   },
+  {
+    name: "Regent College",
+    location: "Regent's Park, London, NW1 4NS, England",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qAOk6Gx2leBbFzQMt4fMHAXdgSMTjDPN_A&s",
+  },
+  {
+    name: "Ravensbourne University",
+    location: "6 Penrose Way, London SE10 0EW, UK",
+    image:
+      "https://www.ravensbourne.ac.uk/sites/default/files/2020-08/Ravensbourne%20external%20building.jpg",
+  },
+  {
+    name: "Coventry University",
+    location: "Priory St, Coventry CV1 5FB, UK",
+    image:
+      "https://www.coventry.ac.uk/globalassets/media/global/00-clearing-2023/virtual-tour/virtual-tour.jpg",
+  },
+  {
+    name: "University of West London",
+    location: "St Mary's Rd, London W5 5RF, UK",
+    image:
+      "https://www.uwl.ac.uk/sites/uwl/files/styles/two_column_medium_up/public/2019-06/heartspace.jpg?h=ada05aa9&itok=IXEHfKdW",
+  },
+  {
+    name: "York St John University",
+    location: "6th Floor, Export Building, 1 Clove Cres, London E14 2BA,  UK",
+    image:
+      "https://pxl-yorksjacuk.terminalfour.net/1600x1000/filters:quality(35)/prod01/yorksjacuk/media/content-assets/safe-images/1600-x-1000/Republic-Export-Building-Photography-1.jpg",
+  },
 ];
 
 const StudyJapan = () => {

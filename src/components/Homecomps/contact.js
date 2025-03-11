@@ -48,7 +48,7 @@ const ContactSection = () => {
           });
         })
         .catch((error) => {
-          alert('Failed to send message. Please try again.');
+          alert('Failed to send message. Please Contact +977-9843797777.');
           console.error('Email error:', error);
         });
       };
