@@ -6,7 +6,7 @@ const universities = [
   {
     name: "University of Tokyo",
     location: "Tokyo, Japan",
-    image: "https://www.tohoku.ac.jp/en/news/images/075_meets_the_standards_required_to_be_accredited_as_a_university_ta.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Yasuda_Auditorium_-_Tokyo_University_3.jpg/1200px-Yasuda_Auditorium_-_Tokyo_University_3.jpg",
   },
   {
     name: "Kyoto University",
