@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Teampage.css";
 import Bishal from './Team-image/bishal.png'
 import Chairman from './Team-image/Director.JPG'
@@ -10,6 +10,8 @@ import Aadit from './Team-image/aadit.jpg'
 import Ashish from './Team-image/Ashish.jpg'
 
 const Team = () => {
+  const [isHovering, setIsHovering] = useState(false);
+
   const teamMembers = [
     {
       name: "Bibek Basnet",
@@ -65,7 +67,14 @@ const Team = () => {
 
           const card = (
             <div className="team-card" key={index}>
-              <img src={member.image} alt={member.name} className="team-image" />
+              <div className="image-container">
+                <img src={member.image} alt={member.name} className="team-image" />
+                {isAshish && isHovering && (
+                  <div className="hover-overlay">
+                    <span>Click Me</span>
+                  </div>
+                )}
+              </div>
               <h3>{member.name}</h3>
               <p>{member.title}</p>
             </div>
@@ -78,6 +87,9 @@ const Team = () => {
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "inherit" }}
+              onMouseEnter={() => setIsHovering(true)}
+              onMouseLeave={() => setIsHovering(false)}
+              className="ashish-link"
             >
               {card}
             </a>
